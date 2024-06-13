@@ -49,15 +49,30 @@
       <div class="container-fluid hero-section p-0">
         <div class="overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="row wrapper hero-content">
                 <div class="col-md-6 hero-side-text">
                     <div>
                         <h1>Ride the Rails to Adventure</h1>
-                        <h5>Experience the beauty and excitement of train travel with Amtrak.</h5>
+                        <h5 class="mb-4">Experience the beauty and excitement of train travel with Amtrak.</h5>
+                        <a href="#" class="white-btn">Get Now!</a>
                     </div>
                 </div>
-                <div class="col-md-6 hero-form">
-
+                <div class="col-md-6 hero-side-form">
+                    <form action="#" class="hero-form p-4">
+                      <div class="mb-3">
+                        <label for="InputName1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="InputName1" aria-describedby="name" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="InputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="email" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="InputPhone1" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="InputPhone1" aria-describedby="phone">
+                      </div>
+                      <button type="submit" class="btn btn-primary main-btn">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

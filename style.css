@@ -8,6 +8,40 @@
     --black-color: #0d1b2a;
 }
 
+.wrapper{
+    padding: 64px 0px;
+}
+
+.main-btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 12px 32px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+.white-btn{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 12px 32px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.white-btn:hover{  
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+
+
+.form-control{
+    border-radius: 6px;
+}
 
 /* Top Bar */
 
@@ -41,7 +75,6 @@
     position: absolute;
     z-index: 0;
 }
-
 .hero-section .hero-side-text{
     z-index: 2;
     font-family: var(--main-font);
@@ -49,4 +82,16 @@
     justify-content: start;
     align-items: center;
     color: var(--white-color);
+}
+.hero-section .hero-side-form{
+    z-index: 2;
+    padding: 0px 64px;
+}
+
+.hero-section .hero-side-form .hero-form{
+    z-index: 2;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    font-family: var(--main-font);
+
 }
