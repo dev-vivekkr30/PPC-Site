@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+    --main-font:"DM Sans", sans-serif;
+    --primary-color: #0077b6;
+    --secondary-color: #caf0f8;
+    --white-color:#ffffff;
+    --black-color: #0d1b2a;
+}
+
+
+/* Top Bar */
+
+.top-bar{
+    text-align: center;
+    font-weight: 300;
+    font-family: var(--main-font);
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+/* navbar */
+.navbar{
+    font-family: var(--main-font);
+}
+
+.hero-section{
+    background-image: url('images/bg.jpg');
+    width: 100%;
+    height: calc(100vh - 96px);
+    position: relative;
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section .overlay{
+    width: 100%;
+    height: inherit;
+    background-color: #00000063;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-section .hero-side-text{
+    z-index: 2;
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--white-color);
+}
