@@ -61,7 +61,7 @@
 .hero-section{
     background-image: url('images/bg.jpg');
     width: 100%;
-    height: calc(100vh - 96px);
+    height: calc(95vh - 96px);
     position: relative;
     background-position: center;  
     background-repeat: no-repeat;
@@ -75,6 +75,7 @@
     position: absolute;
     z-index: 0;
 }
+
 .hero-section .hero-side-text{
     z-index: 2;
     font-family: var(--main-font);
@@ -82,6 +83,10 @@
     justify-content: start;
     align-items: center;
     color: var(--white-color);
+}
+.hero-section .hero-side-text h1{
+    font-size: 64px;
+    font-weight: 600;
 }
 .hero-section .hero-side-form{
     z-index: 2;
