@@ -2,8 +2,9 @@
 
 :root{
     --main-font:"DM Sans", sans-serif;
-    --primary-color: #0077b6;
-    --secondary-color: #caf0f8;
+    --primary-color: #f3705a;
+    --primary-dark: #f05540;
+    --secondary-color: #374b5e;
     --white-color:#ffffff;
     --black-color: #0d1b2a;
 }
@@ -18,14 +19,20 @@
     padding: 12px 32px;
     font-family: var(--main-font);
     font-size: 16px;
+    text-decoration: none;
     border: none;
     border-radius: 6px;
+}
+.main-btn:hover{  
+    background-color: var(--primary-dark);
+    color: var(--white-color);
 }
 .white-btn{
     background-color: var(--white-color);
     color: var(--black-color);
     padding: 12px 32px;
     font-family: var(--main-font);
+    border: 1px solid var(--white-color);
     font-size: 16px;
     border: none;
     border-radius: 6px;
@@ -35,13 +42,18 @@
 }
 .white-btn:hover{  
     background-color: var(--secondary-color);
-    color: var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
 }
 
 
 .form-control{
     border-radius: 6px;
 }
+
+/* .carousel-inner{
+    border-radius: 12px;
+} */
 
 /* Top Bar */
 
@@ -61,7 +73,7 @@
 .hero-section{
     background-image: url('images/bg.jpg');
     width: 100%;
-    height: calc(95vh - 96px);
+    height: 100%;
     position: relative;
     background-position: center;  
     background-repeat: no-repeat;
@@ -83,6 +95,7 @@
     justify-content: start;
     align-items: center;
     color: var(--white-color);
+    margin-bottom: 42px;
 }
 .hero-section .hero-side-text h1{
     font-size: 64px;
@@ -90,13 +103,44 @@
 }
 .hero-section .hero-side-form{
     z-index: 2;
-    padding: 0px 64px;
 }
 
 .hero-section .hero-side-form .hero-form{
     z-index: 2;
-    background-color: var(--white-color);
+    background-color:#ffffffd4;
     border-radius: 6px;
     font-family: var(--main-font);
 
+}
+
+/* About Us */
+
+.about-section{
+    font-family: var(--main-font);
+}
+
+/* cta-banner */
+
+.cta-banner{
+    background-image: url('images/cta-banner.png');
+    border-radius: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 32px;
+    color: var(--white-color);
+    font-family: var(--main-font);
+}
+
+/* contact-section */
+.contact-section{
+    font-family: var(--main-font);
+}
+
+/* footer */
+.footer{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-family: var(--main-font);
+    padding: 18px 0px;
 }

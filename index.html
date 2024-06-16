@@ -25,7 +25,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Navbar</a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" style="max-width: 240px;" class="d-inline-block align-text-top"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,10 +35,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -50,14 +50,14 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row wrapper hero-content">
-                <div class="col-md-6 hero-side-text">
+                <div class="col-md-7 hero-side-text">
                     <div>
                         <h1>Ride the Rails to Adventure</h1>
                         <h5 class="mb-4">Experience the beauty and excitement of train travel with Amtrak.</h5>
                         <a href="#" class="white-btn">Get Now!</a>
                     </div>
                 </div>
-                <div class="col-md-6 hero-side-form">
+                <div class="col-md-5 hero-side-form">
                     <form action="#" class="hero-form p-4">
                       <h4 class="mb-3 fw-semibold">FIND GOOD, BEST TRAIN!</h4>
                       <div class="mb-3">
@@ -83,9 +83,82 @@
         </div>
       </div>
 
+      <div class="container about-section" id="about">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="fw-bold">About Us</h2>
+              <p class="fs-5 text-secondary">Founded in 1950, Wander Train was one of the first railroads in the United States. We have a rich history of connecting people and goods across the country.</p>
+              <p class="fs-5 text-secondary">We offer a variety of services, including freight transportation, intermodal transportation, and passenger transportation. Our network spans across the entire country.</p>
+            </div>
+            <div class="col-md-5">
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="wrapper">
+        <div class="container">
+          <a href="tel:+1 8443074811" style="text-decoration: none; color: var(--white-color);">
+           <div class="cta-banner">
+             <h2 class="mb-4">
+               Experience the beauty of nature with <br> WanderTrain Railroad Company!
+             </h2>
+             <a href="tel:+1 8443074811" class="white-btn">Book Now</a>
+           </div>
+          </a>
+         </div>
+      </div>
 
+      <!-- Contact Us -->
+      <div class="container-fluid contact-section bg-body-tertiary" id="contact">
+        <div class="container">
+          <div class="wrapper">
+            <h2 class="fw-bold">Contact Us</h2>
+            <p class="fs-5 text-secondary m-0">We love our customers, so feel free to call our sales agents anytime as per your preference.</p>
+            <p class="fs-5 text-secondary">You may also ask for a senior's/disability discount if you are above 65 years of age.</p>
+            <div class="row m-1 bg-body-secondary" style="border-radius: 12px; border: 1px solid #dbdbdb;">
+              <div class="col-md-6 text-center p-4" >
+                <h4 class="fw-light">Office Address</h4>
+                <p class="fs-5 fw-semibold">1 Massachusetts Ave NW, Washington, DC 20001, USA</p>
+              </div>
+              <div class="col-md-6 text-center p-4">
+                <h4 class="fw-light">Reach Us</h4>
+                <a href="tel:+1 8443074811" class="fs-5 fw-semibold" style="text-decoration: none; color: #0d1b2a;">+1 84430-74811</a><br>
+                <a href="mailto:info@wandertrain.com" class="fs-5 fw-semibold" style="text-decoration: none; color: #0d1b2a;">info@wandertrain.com</a>
+              </div>
+            </div>
+            <p class="fw-bold fs-5 mt-4 text-danger mb-4">Our sales agents are available 24*7 to help you with your travel needs. </p>
+            <a href="tel: +18443074811" class="main-btn">Let us know your query</a>
+          </div>
+        </div>
+      </div>
 
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="m-0 text-center">Copyright © 2024 WanderTrain - All Rights Reserved.</p>
+      </footer>
 
 
 
