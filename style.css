@@ -144,3 +144,21 @@
     font-family: var(--main-font);
     padding: 18px 0px;
 }
+
+/* terms & Conditions */
+
+.term-section{
+    font-family: var(--main-font);
+}
+
+/* modal */
+
+.modal{
+    padding: 24px;
+}
+.modal .modal-dialog .modal-content .modal-body h4{
+    text-align: center;
+    line-height: 32px;
+    font-family: var(--main-font);
+    font-size: 24px;
+}
